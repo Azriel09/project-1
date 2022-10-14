@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="imagetoolbar" content="no" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap"
+      rel="stylesheet"
+    />
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="bootstrap" viewBox="0 0 118 94">
+        <title>Bootstrap</title>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+        ></path>
+      </symbol>
+      <symbol id="facebook" viewBox="0 0 16 16">
+        <path
+          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+        />
+      </symbol>
+      <symbol id="instagram" viewBox="0 0 16 16">
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+        />
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 16 16">
+        <path
+          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+        />
+      </symbol>
+    </svg>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/cosplay.css" />
+    <title>Cosplays</title>
+  </head>
+  <body class="text-bg-light">
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-dark justify-content-center sticky-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex w-50 me-auto">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsingNavbar3"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+          <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item active">
+              <a
+                class="nav-link active"
+                id="cosplay"
+                aria-current="page"
+                href="#"
+                >Cosplay</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="random.html">Random</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nature.html">Nature</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav ms-auto w-100 justify-content-end"></ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluidg">
+      <div class="row row-cols-1 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://lh3.googleusercontent.com/Wr5UI5DupxEALScWRY6ittZk7F95DXIzDGq-qqjgG3Ph63MNi2Fz5w0nvY4eP7jmyPPCSkRlw4RDiaAnyFj3p1aHNdXNUzPqmFxLtmy-sQh0cKlf8-1FsrP2c5ZXO8biBRtoQbl5y_ldVrD_BdhS3nt3JsjWo12XMYuH5n1Vyu1E2ojw4t0abZtUBSw6Ry67rKf34DCcY-UPPc9OQB5QknPmeGMW20qkNsP3aPhR09isiSjd5rWNWg66ae-fTbk1QRYQoeENWu71dBw_nSya4ZsPy0AfJBeUggyks8MAjL9b7wKuPNq4vEfButkEgjY0VoBVb5jOykBOIXzBTGJCL7KrbZD8LGTSSfTNv6XUS1HzCy2G_8cPUueXru3GauoVpaaSMpQ-TI6OcnEqN28kGfda3pyTlZEPIf1-llbvCgQjQEON9pzqk4SHyw1FPe1Y8lDKosUj6kkraQ7aVR5b3CxQTQTLLnqwAbujCy6qlislhe77dREfKNtBKIJ3DqUj-8yqS5s97vv4DxmmrLqUryTcFGjDfUtBkb42YLSeptoczIjQBeu5UXWhpbfkzr34Eh-7dbh2cQ_u52vesXweNM1zpvJbBs7o7KsOfUQqXrCD1zpkyHdfl2z8tRx2QDNq8gOEObUYm-ffS5tPXtICllk9vHnVB1hjH_x6Xx8eGGk8IYFkJd5IrL5Hl7anVHVjRgtKHpsOn7lNqaJqj1juZW4DHGbeppLgBYIvjiPnAk-6IwQSE2NauOYqK44qoqbPt_EExHwfXSC4kBuu3_cX6hEx93bLPI414nlQJybsGUSAo8sX4f5Ad143kFgwco2jQpey4D44fRTdCPBke6Pu_X9L05Pq_bnIGZuVT65hzlr50ME7gdLHw4_FYdg54PpDwQxkT_DxKYLx9ska9Y6wRZu_hilmUZA-eZz6JA=w551-h979-no?authuser=0
+                "
+                class="card-img-top"
+                alt="uta"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><strong>Uta</strong> from One Piece</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://lh3.googleusercontent.com/N0Lc7LAY3PNeJ69hEFE9DAVhvIH30huIa7pz7S7NbrTIIua8v5hrInF6gIo053Dbcx47txmYorj8nuWTPAgoEgBXd6XIkqjlEt1aIlKxZL4Rj619jDYBdM768TLUcy_0I8rZo3A8vIO1waArosFPlDUAaD2ehiU7-rxh0n6LjyUGBS4ez7BSsyN8h4I9Jdm3egIV3V7TwDz-_zVU0uLlzBPuO6plV4enXNi7E2AF_5S1rjFcf8d_jY7sGfOziRdgPB3e-2N5jJUaSrXRzNEjH220BexcGotCOoLoWuO7wbXt0hDkg3sPrKt263n-dyeT_ZM9Lu1x_q9UTzBLDMer9-fqXrb9-CnxyTuokYFG6k2Wfv1CIEu5dO6Faj0BpR1onTELEtD8BiqAPQF2Z_nL4e5VaK2rUjWclv8_6wCm5oxHeVliPA6RJ892wLL_z5EGSNu-PMLI9kHuoK8EWRxTZcOVSAZNFfAlVM9p3rcVhr7crNTLe7YS1qW2zxSjpuvc5IUFnlN8srX6vx3KMaOKxMdO3VxxKMFSdJJowpzMA3o3iQZinyaOaPhIlKWtZgFqDuvPb7rn02xS0AVBLg1Vge6YYEZ4riaHvp8nexZ3ERv6w40qMqgdtjcqk4tzXG4l8O1Txe7mXEgBbxJ510rO1B4y9lyJo-OqKG0d-JWjwl_tCqjLs4-po3uGmvCOyTBfv9u61uJ6xPO5PsLGbZHKB4FWhg0-rd4BUeCwXXlqnXyiH5TojpNM-OD2HiMYR0v24DXIEW5o5swSIyy_mTvubtEVuBQNWidZhuc0BobcPo82NKVRyOosOOKRSP9BYmdhuTFtq_FmHZqnq8LlNWHl2BmB6_tL10WJCkWT6OjDdsol7lVrijxvLiqXgDfjv6WM16N6kO1LJbXGQam6IpO0LuaG9dcz3pmGgjZSpg=w551-h979-no?authuser=0
+                "
+                class="card-img-top"
+                alt=".towa"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Tokoyami Towa</strong> from Hololive Japan
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://lh3.googleusercontent.com/Q5hhTn9EcfiybUWlI9gIlhnbsdoRf6Vdq4APep9PeP03GVrQBKBld2f94jQc0pc1ZYHcolb6xO7OmpQ2Bv624FmfMRw2vw42LrEoTodJbq-XBZHxilOk3C6X0tXYsHx2qq3icEi19LwwhCSzBjPUV5QCSiID_Yn1TU0Gb-8Y7_YomGVleaktdEmU_c2uw3Tf9FopEPzxYILgX9CQjwGkoWPcY0rIgZLHRbZx5oO09V0tzF9QDBT1jR1CpIOKr51_jarsb77bfWGfE-WudmJRRFarH4NKfjIMPCyAQU7Gnr5G9b8CGVilfywLWADFWTaOm1pV5Yycg_Nmp3KY6cL-vElDVZZvr2wZZcMQdVqCe3pnN6rCUoB-czxfg-XShCpECZL4NNrMM--TKa4603EaxKOKlu7t3RiD1zYJue5FUQ_7ld8bBEaOV17oyIFtYm10n1TA3XdvNN0gE9kJEJzDxtYkWlVT5M_Wdm4x5w619YJoLgkQLit36oz2wTYZhyu6S_MqqHOmr6e_lu4X7Y54EtQldKksl2tJUZDxHJvZkimS_bcNlHy8QSs3P654FNs757aNkUvayJjxyZoC4miKSfBCli6REMt3cqlnWw3Ni4GuuxSAa5dQDWO5rPzPkRHly_Bc1TiPUkmLpEoy1OI4pGSt6xr7yp4kcxcWCgtZabD_wsZm3Gy2woIV7Iaa-vF0OFR7mMWmE7jftBe_rrxdRwChKONruc26crueKbKKKJFn4j9EITI5cjUNvXUp9LU6vrzKFDg2--kFWdaLWoHYkWop8_COYHDj8XI5wcwSjmEwu8NPf_60MIP-0jyCsIJe3PzOamXsgmD_GWyHroZTGMQb7u9mVXYzR7_ooi4sTEiikCdESrZQJJlpjRq4eGRVEBnY0XELGxnEZ__FFDD5IIzqWNj7r-xFGDzZNQ=w551-h979-no?authuser=0
+
+                "
+                class="card-img-top"
+                alt="suisei"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Hoshimachi Suisei</strong> from Hololive Japan
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/z9dM8214WtRxVXVR_jurDrG08DhdW9G1itOih_c9eQL7dpz0pNzcSs9LCfQTSctNSOmUUdOgj4GyTwF-Xq0hCnufqPWksm49RaVZw-0zQhWUed6pX0riSbhoFCc1gA_DvKIXvCracyg8pCHdHbA573UN-UNewgoLSK52WbmhFlpdxfFLJdWtUdxJAGJOLTrsLQhC8ysgNt6MuMKGzfQoeo7Y9S6Vewla86a8Gaf9nTdOSUy6CpZ6H1eVvUGGwBzp6WnX8QWo-KndVnWkQGIvoMAbNRlQYfi5xp_AQl0vG5MErrpFlEFofHLaW8JTglO9xe3-jID8s-vDo2jvVO9JZYMGSndX3mD2xweIPKj5cS9GWr0qAxd499-avhFMitkuxiH4nvBFyFPkNAUD_QYm3bwqwEFpFVnPemuVVQdUckTRA9fHqftIoOdce_OUg0amg7PLzIDTLcSH79wBj-Wmj-Bkw1VmpJroHSBWHMRsv2oFK3nGcBr8Hzjig5U3MDIx4fnvdWcgHNbJ3JibgLv52PliR2JcHlzWQ11joM_gX6mSdp6D0ewuEd3Q-fZzAM_eAcfSCKMfQ_omK3kj076shGuCVSWDE522yFVEhTNQ-W-yuAFOLK_qIqdcWwt90E_82zmmAmvTm2LacToECaFlLWTMyrP67H7cv-zkCKhi5AF9wGa_rQekPRQavnfgwd7WmrDO_Dwf_V-6Tg2mzOrU01fRamFU_LNAn49Tv-5xqqsVMQWVoQWNc69H1hdOx3QTYlQw8JstDEopFvSjEpTSq7jUeKivm10oulGJpJDhYCwgZ_qnI3YK9DvQiBbcLH4D5sqME8dt2gZvunvyR_pkLKLSL25vILr4A2HJjZ8Nb8cgS_fusAFtts69o-kJlj3ISeo7sos5hF4aUaSckwNgMKfNSFSk4qHpPzdkPQ=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="shien"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Shien</strong> from Holostars Japan
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/WkdGues5Ncrv6Bt5LW1zz7CQuQszHUGVrIKf6gL8U_r6lLaWxOzBakdo_fkYz2FwCkcW0LTVYWpCyro6dDsO008MWUbzx0w4i5R0l1NELl3-hA6Bk5R9JXUTIJi1vP8wEWufUB1A8nO46WWNaFL9SsFiwvetCVjThInpKL_nfUGaNzD_PekQDB5wSWP1ytECTwXfHq8l68WJevHMqKQ9piVD723m7HXpdvjG86Fm-3ka6S65IQnDUV-mkhE2qx5W_bKJzG_k3upGF24_r4jdWZ_Zi2jxtoqkunGDrq4mx9aC7INHAumzIk5axXMF_0Ez9q7KAyJ2znAGg0__D0FjBk2d94f-09jM2AGgDQ4CRISKkRH_NqKdZEwULQjw51EXAnTz_x00Ov6IwVBj5rIyCJyQlup9IuOmlmAxPxU9V9znyQDu_LKRiEu9LUEaWHMtajpdbE8aIhtRIttrQ2ABqQ8zRoHujRO2dLwT58kgRUSNEfDwBYaekLwzHa7335OYuRHN1Y98t2g1-GZxRo_JujQUhuu6a10jIhcrWGn49rk4b10dpohvu7Y-Bde8GQ07mKtiV9qSEH_KuqHdeqFJbSP8lXKHi1y2iTETjkWhfAAplqBnTvRRQPse-N3akLKHt2UprnreniDF_L8F47AR_4C81eUQ1cP2UzKhySxiS5nREuP9AihBeTUb6_S4RCJr9B2yeCbuoT8TnekFa8POiWAyQXTnQjm0Y2OtyR2czVdkuhQfkPsoc-NT0bjVyEBu8vZknmZLsCEr-TYcVnzfTPXAz2EUbsmhfNpEViaQkM7pgacww2lhOErIins3cZfCi3Lawc2lrxg7y4qxtGs41cAwrtoCube0ctRqchCWIoGvW1QvGjXz9hAsmCUK1OnEgL6gcOPIM8GEiE1OQ2a-lCui3XyrLAJROxnbTw=w551-h979-no?authuser=0
+
+                "
+              class="card-img-top"
+              alt="rushia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Rushia</strong> from Hololive Japan
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/v48G40LGX5MYmBH0f_jMMucIYOM2je2XRIn4oV-TkcOov3ks1E82ccJjZy14xxQUzSQxaVS1xDo_2Aio7U-_8gvGd2-xWtEee_x7inp1MdhXqIG3se_FaFr1TlprssTJ8L94lLpsO8z8trYnm2J_3yREOK5ivqgOWcwo_SBntg4_Nb5v4o0w3yxeClgXDnVfH37Xg6J-1rBxfZzPsnEDWkRFS8_cEuYO_Zxlpf33dP9sDuB1w5tB7gH0m7CRRELhrw4wGNkP5FYPkb7x-9UQXOfSrmlMm8dUs1ZEfAR5FocfDan_CdI1Jv95tYeb9HsrGT37wg_Ca-gjgeGpszRcyPNgoxkA14Z-qJZNKHqseU4Wo4Ziysul_sc2CnmAXzDYwzpl5KnocFXFaGCXiXOLmTpvZWjtzmTuKkYdoujhn4jqxxD0_H1HS97t_Fs-cBJrvfjN-Oe-fv99Gvxe5jgJvsTRWpCekNi7-XiFblZy44Zb2QEksDpXt2cVDATkW6bMrt2BaspCil5N1XJ1N8r-b6c-u680Ftr1AWfm5Kk4CljVcmpmZfZL0f9vaiIpx8hp7pvW_8BZW_AvQSy_iklYpB8RaieGhv-0l1y1t3MzK4xZdkh3Kn6uAz-lAng24pcj6njgJgI_bRG0O_DzxpDjqtZC70SmI2ThTuGNpyXtW5fBVylvuRmKh58HV0qHyIxZVov95QzJbAkOs805I1wQzjY7qI8aXuBXd51YOzXsn8kDzSmZ2pu6g6oDDsOMzJTPndIjf2u7LF2kCdrogDhe99HeCca51uaoUx6QnV4cE3G9goma5wBI736yWV5Qzga44flKtTopDm-fJ-WhvOMzNnnfW-UJRgcUPT_7DXIMUFcpaKT-rgvf78Ap03tH1mqoSfJWKEnibKvgV8BAzt4Uc1_VAWnZQQKOLIcZsw=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="ruby"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Ruby</strong> from RWBY</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/hXE8fNrb2T8h-wLq6dBiiDT1XlzbM3rrxD8gcsMoXi8Qr2Zbh_gMniJmmyQmfrifm4RYma-b_gXMY1AEhXTqCzlg0-9q1MWShouY7ginyE8xasGMz9Cfdwq4x1x-wt5BUtmxjtoN7VV2bd65yv86FLbc63Vs6dhE1hcJ6oCCe47UEfNFBve-Kir9sDWVst-TK8WiqtnpS7fcrp7FCj3pxahjvu4SWjNA2-b4J1UXmVHJchlCgbDumESFbAwjd2mw2hd5PLKEnd5FMoWRv4USz-T5bnf0l7EtInOFGIE4P1VwzwANxTrDvKVnU_7FihX-dQF8k_AoVW-vKpFLxSveA-T_EgTrcF8Hz29Cnwtoq0bib2mvnU65wpzVOKbSbetK6F6vSTjBX3zcWQdwpf9tHPArq1rCB16z_Dr-563bYx9vawzyuX6Y5p1TclUUeN4Qfk9pGsi_WQ9E0gK48_VRv0dMZ-LLEqnpLuXTk5jxrKI2dQzPo3A4zeupb3iDmTUiYsoMfLTgMYN0PNkgQieDDlcM9d3uvm69IizkhN9w87YBQVuYGYoJ9npcXZ2d1vdBKNma_UkcBnjkAopDdtJaQViE5-_sQmXxCHxcVFYuVLnVqwZq7Jas1aualj-qYTR-OzEzRUWVcUNRsSrR1UL4sF90AITSVjvWlS_hpZP83HPg_UPWQZKHSA6qXn5kQlu0mDKJ09ypGpMHX04TVtphd8qPvZq9YHm0PbZ_WWzY2yVn2li1Y_MY9ICIF9atzJOGWDVcEQonHXpMnRsXGFH2WClSrLCbhENNr1g4QvnyLn_i-_Sn1RYAScT00PmoLKXPNcuCcdaUaPGRYjMQFBkV2hULDzuZIO6IdVHNVkVo9hB0q7lESme1xBBfXNl1fxQt7Yh7_01m0pgWPy56G7eM1T0QCayiPyJFD-VTOg=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="millie"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Millie</strong> from Nijisanji EN
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/zcrWlFiHpa3IUkimX26VUJJCQFQ0K12wAhQKyr3HZy_VJs3_dZsst0O-8C-zEOLxI__aP47dSwbNZcexirqVu1YgetsnwVblze_Ytpm_lgT-Lx2tY5GmGmdQQUXRUE1It2XZCTapmMIdKzibBi4d0MTNZo_Hu7uxppruf7JnufrlpWfj6oelbhmCJQ9wrCA-caRu7xbXY9_YiR4xj0Klf5ah8k7WSuGFwaG6lJ_AcJSxcWIDK0Phix3M8mH-MBxAZJYuCSszOeFisxET-uDGIgfvk6UZEplQW9DV20GZRuzeiWwK1xAGp41h4qiy4joLTKCHc9MLdMHhfslkaDjnMthuZooo7b6tLRcDvDLQizHaNvgYN9HTJh3WXj7EpjR0myzsM9F7IWniCQDkDR_SJbJsHmgpv-WApKtESVpwpx_IGKczkvdLvYpl_K_ASQq5_gEn1yt-TZQM_zZGUOY9idnrO4BBXAACZvSGOGWICDBZ0etdNIdL2w9ztZwKmxhkw6lKJc2whUkGgvQptbXSU2QVXc4WWYjCsdkMA37xyTedm28GXW7NLGIlcLax0k9AwI0CGXi5J-6ZvPVLygCWeeJhhxSUvXb0vhG3UWZRp8bhgbHQefUTNHX6fHhZlo3FCKzhBupsebd4UowWKE8TxSo0MhYiZ0CCNW4KafWPGNlToULezcgPsCegNCOdehXB0z4A__QiT5FIvT5gfkF-kF3a4a7DV1U-2N24h76Mgvhf57nW8QjZ2Wdia3tl6Ht2U8aK-0_pppbnJv60dbGXfEiHGKXhwOLjS4-8uJwaT5Aw2VDASBUDQ24DXdL8zbUjqjhQWzJ8ykfDeZRo2xND3zQgCYXyIWQfsGA1b9TELoNKUmUMKA6DyAGfki5-U2nzzU0ffS8GX1dhwRtD3WhXIKuthNEyWJw3FrxnRA=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="iron-patriot"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Iron Patriot</strong> from Marvel Comics
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/YBV-vQ7fba0mGjkqwR7TWvxu-5vv-BF0w5qfDtZ6jr8AG-UA74yq2Svc6JDKAL1dTD5wi-6dCCFeMdeRMJV2qxx2DSuNvWP4A-JXIMTfnhcEnF5aBhHF1xNoibBr4-u55NTGnKiFNER6GKR_m6Wx_KQ8L5VPMCrtEmuIpc4rGD9exLyYsBoWrq4fzlOyCCE4Sgk9d6nBnLsAy6b81aqR5KDl-gwrQrKnpkYOn9Ji5qtIw6pLWRMHXududs2ZUP0zqpYG-JjyzX_tji4yf0-MyE2wE4Ob-SKMAE_Hb-hMi-6IBzwUklYF-ARMIDhDeu5-aFK_Zdhu7mI99oyUZMOp8-4HNNZ-VUm_vbJRRm32nd40OWwEwZLVxexV9YTXg4-hIjvLBIRbwnOllCh7-lUVwZmakmpdRfMyx3KBpQCyQOA_hSL-n79E8ZQ3DSIEvBPIQwlo9LSuz0fmhtt-vCC8DWmuBJ_xjhFyF4qt2l5VSV6YmZ_wpW7jiES-1kRPrCAVOany0K15Em_tMgr07bUqsgfkpWGAREN6B5J8B3vmIrkOCV1JvJZ4AVzevUzVSmmT8qlhbCV1F3JCNyfOTYk_RzLv4oJbaTPlnmAq9cPzzvWBRUCd9rbeRH-TC7f7_sHojch9TYwm5l_xUCB5Z0F_4JDfLger67vyXorwUSWy-6L2BaGWcOXHRoj6jwr_w-h_ifKuD-4nt1CqOI23XXzr5ndEgLWdtgWQfYgKvBYouj2fgivRbCDV6Xe_ZuGj5OWNQfOSxRUN3lkS9-kKDPrKNX6LNirg6RTNrWjLJKiwqBbNYccBglUHPWnUX8Q__cH-m5Dlyaz_H1DFT50s_oXHvEhii_g5U4dqh0_K2b6p3eG8o9JsetrP6FbglboMefLkCozubibmUsZHkiiAiKTZ96dalFMrxSO-WKphHA=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="marin"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Marin Kitagawa</strong> from Sono Bisque Doll wa Koi wo
+                Suru
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/HzNSX9V73Qq94Qrr-2jl9I0l8QlFzDBi98fj03Oify9C8g0P3isG49iD98MzROsrEPQJdwC2-e-DmNK51k6TNHzorhjbcjGAuTD0MzZjmQhKIiW0B5_FbwiRsSFtZpqRZMz4t8ROSWXfLRlIikFLtkiystlZqA636u1GsG4tZ6RvBJQnNgMfnjmD1CqSq_jVyI1-ZzXtAN8TRmYUoqHJoidJu5VAB2LZe_ZXL065J71zfDNv6UvRGCP928AdxuoBQtbReLQjX5414yu_V7wDoeXtagr8JoJSqOg0HnVl_o4gIU188uPqtKhNa51MYRUHv6ceI8IrIojzYWSSkI95o1Hn9ety6FYY8U0yZWzAdFcVOdN5NDOtkWAC1G99IxxQYV8DIddYwqBR6uQoeshQcf_5fXQ_HYR4qXSI__E8C6IZMnBqgUd298yRf_gmMDSYJob15AfqcnwG7I-b_0GfiO8OqEvbLLK-GFRntZF9ggAlLgtrhXg1efaqywLladVk8mUd8LOi7RYeMLhlSI9x3TpQjhFZu5c-YS_p-DoAgVXpFwcLl8tX_yTVMzZP_m_28GYY1lPqNnvl4fPx6hKkFoBU5uSJD8TvOXwte-5MbT6ef_TiqF-nVjchgmIs48s6uDS89qNWfaVXXS_JQaaCCJRMDNWvFIDY7T-F8Ii6Td3dahfIGS-FbWq9HFEFpvk11PXCxn_vxxwRZ1ZEMQ1mR-ADjj7gUP2G1u7ZTdbsyafVkfC0nX0BEkuSi6ndpLE60BIXIEfV7tzqldtj554FoVt1di7wEFAox9IJ17MzEqwKO6q99vUkOxsxpj3x37NNISDdFVggJoBG3nZ01HmIht-G5RjUWaGOji8S8CkarX3w-LOHyHbWofehksGoHYYmPt_Cp0tZjShdp1X5lqqEOgVQ58nk6lFm9XK_zg=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="howl"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Howl</strong> from Howl's Moving Castle
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/v0bWbwYfSIKZqVQrtsDH_o6c0AJkRaJT9Mshu6IuT3JMS-drHIo9D8ssFHfwnFfWP8q1j3S38boRnP5Q0Ny3ShF4LIVHkCvcaBoaQoEjbW72iNeqn5XEPUgQlS9cIRdgEbsZpHgZJf-G2CC20ONin7ymDQbKurbBEPFgz4f7BkU2o6ceFMPj9t6y6UgISxeGRwA6GVc7swlx8Fx1eL0q2HTSS2JoWjG9RiY1AoqksWtRFwXUIvnfoFfbYKexmaPHh-6SgRnnt1qZJE5lk7aE2wu5VAX4UcUd-IdbOGbXVgtTrwX8112-vRjslTjpat6dcJmS4bBb6eYBXTiy3NyJEmWxsxPMHqzoVgBrqRLQiXfXOKtKXKqhDl6oorfft7ZVnPtboiHhW2-oOtxgi_CpS18Lxzz4l2oxb0cOfmz2BH2nPJpS4ieI7kr77DE0x9YDs01iril4tuXRxT8UU0FAi-40P3hS0m88SVD45PWqvVh_qYpIrvM48csfx4Aks8fWmc0I2f-DzXFP3ZfVan9CB8ZouHyvyNo_dFs-7nU_OVtn6P7VB6H69B1QUhXdHDawF59vpmkD4GK-yMoxPUhvHem3rQbyIQa1fyBLB46GYavEhN5TcR-PH4WWlkOjhKwo62iYNQRjE8OLO56_tC7NKxtqPdJemBigbUl3RmhBMzhi1szmqdiQvJkvpOQYiPRdNiVFPsGAdNHMmOnzlz_OKY8FygTYK1Z1El9Iqw0eeV0EwTI7TZ1CLRapr8yyZPcynZCX8cMH_1zmbOXiO58Zpx8legsrCzTriiOP7WMkTIyedC4fCenQwNcMbkJxFbJjn6KB-qx77HsNB-pY2o_9A23DZtTXZsIQXhLK0UumfWXc3XbjezRlvzYQudmZbIrnKJDW7StUFyvzC6IAbnZtYwPthIN_9AQ5FWEWhA=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="harley"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Harley</strong> from DC Comics</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/H1B0hxCs5ls4ikudgWwEgoPHOZGaxrbRk8-zp02BiUWcPmIHvDSWwumlLszKp02luPK2yJs8yIck6_TYc0jlLN-OSQ3DgLVWSJYfiArJ-VKYX72cCp9tP8zLKLpa5fGu1qSVcXTsMiDG6BEkyOiBzrhu9Ad3yq10b9Iem56svstiYb0MI7xhkwKXNZREWVRBSsvyeoBEp7yd0g6cYUEHMRx3r8YP92kPCBiJyLWXDfD10YnHKNug5laJR-Bj0x8RqXyrr4Ml7bwdTlquzt9Mj51zjzH9ZexFOrlJ2ott7p4VMCyz3qgyOPKwlhEwxuqcdw-AYHQ2D74HxwzZcmFFdluW_vTVlW4vxpXyJl7OublXfyKFcSMW96UtAGanDplDlhylpc5-mH0Bwcmg93fUghHebtzY19zqDERCqLNqrYdpD5AwED1kcFpq-IZHmwPsEFUcK-z-XkcIUlU253JVMRvUWIliVNKXOT5aITzDjNRTUVqmY3T0aUzRjHDk_dLQnIlUm31Z03xZRpwGStnxW_sHWtGmI9lcsjx5YR2o23cUSsCcm5xK3ZACV58gXEf4y-wf-zVOt-p9ttUqd4tIzpNA8PGaJPgWA4gRBX8ubyW24KqkgxWfswaDiDB4Lx_WXgQIUs3XcTBR8F0_9hm1UoMWIhW0rlEeiwYgU_mk980bucVew7yiT_hu8Esb2Jzw1G68BDKXqaqbo3AG4HGEsEDikw6R-wG7pEnvB7489NUudGHvel3rNgk9UBY3L5TbDMzSHtGg24Q_MxlRz5aZg4Dwz7kElNL67fjLtmaWKxDIwSTqz9m6XpsdUyOKHcvXyYmBBa1xskUVYJCs0mLI--QB0vSKK7lkvUfqrJ9lsYhqxQgjHD1VI1sJCAtCQNdU3YwLvMQKx6HdgA6lvkVfL9GdJqwcaTsDvedckA=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="chuuya"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Nakahara Chuuya</strong> from Bungou Stray Dogs
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/kY-a496--6cF4VZm99JnT5CE8oEAJQd546xL0bDRCgx_bMJvOWsopvP2iOpnGMle6j4hdh_4OxupkXX6WjMeLjbgHObSjc4c317c8wcH5_X7L-DRaCVKt35LQcFfRNmYhyYSyk5oPL66yIQrA31OfbhXw_U93UVC2Y3a-W8Lup6q1ucASFDw2irxslV97r__xTwhNud__u3lZeQE2ne02OEC7PSQ5brsqAiuunW9oT3hfjuQMgyC8sefsRMlrgMD3yZH7dBEs62oovIqNENQo0b7rrtLN5YLDSUOf3Zu2SYGN9GUfBZExR0Wq67hqVQoEZxWVk_aCv2MC3pLinbtcWTjw0OiK9LGlv-9kXsTJuN6c3cefsKZ1w1vYUeleuc7u5QdbNb4f_gwo70jTLYvSnFzVFECPLootx77E41VISs8Y5-k3TMaEbfRgoxjwC3ic7oJL9L-mhzsxzpuXITp2T4U7KFe-CuNgUcONgn4Fe5ky8SFWySDyCZ7H-zSQVNkmxuPOfiglXc8pT5utf7lSgXijo1x2zsZ3opBWhRzFuMtjSjCSVt0vsY-5rz8DfZFT8SXHk7k1tiSQnTMRgFloI2eg5OD7aHfHhw6rUjmMkMEo_tJ-RtmypP33dScRy0MFIrLii_pB69fuo7fdPBszqzzi0ZZXkhU9ZY_8fwVc8q35cNjTSlLtbxbhrVv3TjN0ArCzZYYQs01WFijyvt5II3ae8SCZpfWhs518-lIcEdkJe-XD1FnxJeX81CDVJokTsWBks6aoLb03c_cpcnzmUjv5yieWNCOnkZBVyrpDtBKMfaXYw10vqdBqryvmCKTJLZwkDtmdWmgjqxYYgNNYRgEuABBmdqYlwPRbz3J2j6n9LWXf9lNr2aF67h2Fu2XhcHuZfbJtdoeGxTG7YIk5s_jtOkD8otE1TP-Lw=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="caustic"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Caustic</strong> from Apex Legends
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/heHmTXnFbCHC7NfmDspWaJx1TZvwPo6h69CTbZ7tVj2b5Cvz202ovSU1CsWNPyo7_LVMqSaQlMMxKrUTKk2IwT3e_bMqcxYo0u3sXsXuoEjKpurNb-wdCgY_zj-7gCSL9qz8bXoBcu4HzWjKtLwbaymNbpzuJS5Oq8k-VK0fkHPOWeFI-3UawCfGkjwKTGk-pCwBC9om4JBT7d_mOLv9WHO1fi_s1-vBaFNOvaRB1z3GWlwwY1og7WEHYjT51sqT2qIsbjLIzd82r-jRoeE31ML1eonE85o1Ldy-omIMNFdZo8hLb6rakP78OcteSCWvHSUx6m2hhHt7NiGvD3wSwkMtO1GlnEYuwT7UT7lBsFdWJlm5gbjC2o1rrcc5WA_cBX9CEP8LGTqMXp363ehSQKyQWoT17Rx__BxQpujmqAq8puCFQi2GtejhpT9Q8JtG9vPuxpmxhyzHhXDyF8dV5rUvsp2B7x0FOaXV-0fbrdBShx1vgPrelhoo9t9O_Q0pcfhyfFc6Nn6IUv6EdrILNs0u0g9C5Lwtc_ovoh2r8FncjbBHeOIPvWuK-X785jEbhcAUtvAf9GHx2lIKmF80HNsWtO4Ncw5LRzDuKUt37dFA479w8J2u5rnVOX6UJsTNZvvwXO_kYwnPgOsTXhPX9OlJTF7UJfpNgM4h6iPm7Ed5-hdhEXaY4FWnezeHAdGgM9JOIqM9phVM0P9QXzwr-G-l6t8vJqBKSYscdiD2ls62nNGRikRSSTubD9ifTpDWTEUjJYPjRxmrQCfckK_r9pa3lrFbh3TiYtQlhIfG9N5vFmSgQ4EnJ4no2g5Smfz2NACbBLFAin2nDnXni6i5jBMVdlk-brqHJyVjk2RYLwtY5RmJ92k1pSROEDwUWNNudvmoQI60sjM8nKbUEkviMWqSWqxkORBRNE9A8g=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="asuka"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Asuka</strong> from Neon Genesis Evangelion
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/88vkOmY5wAhmQUMQSIhxnvvXKTGnpzk1qViwhDj2fOTKwXXsM5jsfWy7SlYTYwzlCYvxkTUl1jmyD3NzISgsR2SxOy0Y2h2JD0moXqn2MJDVrt4p0s6Q-cL5O3rs8YlEJBCMrQQuXRegT4nV8il3meJHvO3JsqtL7y-BuzadQ08L-NNeJX3tOjLzTKqV_YWkMMo4NbK_6NV2TFEjA2VcYbVPvkeA9IbnZ0hCTtJa8cdbGyfO6Di1of_5QsEdiTdYN9Nv0klawFTb2piEWgADdb9GavhFxMAhiM9chfZ76XpfGMTa2rLaA5fPxDi1CZOcYrZBvZ5lX2qLdHf_kM7dH4313s8yKden9q6ys5LimScBFRz3hC5i7jY6fUVqwBE-Uz0Qi-aUhphOYCm08zDVVVos03rSRYnaZZIXBxDvx_vinACCdYckkWSx3RWxRRFzfSOrcBug4-aic6D5HVE_PRCOpDUuNc8bDKSsZhE14BjVzwVfWFb9Jw3WYRFtBomvuhRTHUYcbBRPGooDIghDCNRpel0stWeS9-Y-rI2kqzx3zp-MOpUi-x2GsH8srO07i6kO109LE0ukvdajekRujJ17AalLmgbM7nqo-EyIkLoh6AhBvd8EhlFfnDzrdaFH913jkv24RvM5jMGnY1XR1MMHyLXgjDcawy8XwFuAAi6X2sBad3rFhY7ZvrbfGzdS4gB8O4kYLhugMDmI5GhRehgOCNXQgvnnzDyixUbR6vhmfHuGNts7k1REpxDLSl-DDDB8dMSlo1S7gpmb1F7Et6mPpCgB0DnbMnaF_s71jXf4St_0C2UrrXp3QsA8wWQG6LgD2eetlrP4qPnXYGQA_wf9HXmVNffYs5597k6vURawQY7TPJGH7MtWz0slVATVpWrNF9Y-Cmkbfk81F5TuqrBcn97POUSXC9l7Mw=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="alucard"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Alucard</strong> from Castlevania
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/wpJret0Z0NLmRheVI-geczPwsV0Il1RzEZP-IpgZRr5UPjrtzhnBRde6g3Pj7FvtWNeqLUcMKumMBPeAVw3sk4ZjBlLJmy7-Lw4MMGw5HxUtPrIPNmPRKv1LyGvZgqzgRDK3v0TDOm_7tAKGSq40VMRy3hAPGwdbSxPiZ5979LoE-ooLV2M3SsYIUTsjOtosTb-GGrQBzPF9TSE8pHQF2oGuliQiq-CGT0n1r3wWTRFDptnDDzOrq9DUYQNq_JvSlU2ovQP0xNMIZckoCiwWu2M3-OHi6twOnMVeWcFU4p5MpeQKPpIOO6I_jJJxmzyGfuFGV6KakhwiEJ1RMGXIel6XU7tjEXfC-KJWh1J-EYRwZnyjEIu_vJsNrOJFzHrEsAN3XBQd7oWpZKroM5sB3bWoI6m4j37NNRabtIUbam9x_p8WAc9VCPb468uRZhCbGDHo-PaZ1ebCxJUbvTk_6apx9ozU6EKQZ5xhC-WAvFo01lHQNhCU4IYbs1k3TlxV5M5mkTvuUiu_6mjwDPAIhWWo3AJWkhMIYbScLw-rL9qciiveKzG7YNRi2Z04JlCCKvLXua2JbzPE8ob7HYZ4IIOpdwyc2mxyDgJIWbf_Ufd6i42BnjGo8k6fHEQFBJQlO-K7SV-FlLpAt1z0mx73KLki6p6Nh2pXcDv_OVC8rdlcgyvtfo2-nP7k3oJGi9NZAFmi9H738Ap7Ss9u0ccTzagxYZ2136lZXViAlMQBIH_VHeGCMI709a0MtIKN4m4Rq_aOrh6WnjmB--C1TlIUa1ftEslhfvl-P-Echxbui0FgOwxpsjWHsrrD-z8QSV_2dmNqjyUS2Rh0FlL1CGGSc0DS4KbHyByz7B5-WdpNXtFjWDKvJxPsXQwmo8mGTdqz3EBs2M3LAJ9NMjPCgzZjWNcC_orGzXH_5XAOwg=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="lumine"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>Lumine</strong> from Genshin Impact
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/94Gj_VSQRUpXZWOeDvo3oc8eypLyCMLcqSB8jLESfaInA9O2ypvka9khl_2W0JR98tBBbakXU0IMVg3cFoEZ-BjK8L0i1c3mrtAAUWcrEcErEQVn9fpjrzDsAa8jYHZAyhSTjVUysF8xmmb4cPJp-INoB3rFjdU_67Q9bkbhquHOivMYqnC449gsmGcNGckcdNMjDbKRddyY8pKD3SUHioumBSMIwFVvc45UMXgcUPNczy4dVyN9_kaIKKZdbetd0YJU6jzVvf2VGsZ235kLdWPDu11cKmxbo8ql8T_ZRqB-o3Eba0tKEeMnrT-sIqBXcIKAQzqCxCGDa2_fmFhBpjxDYqkY-0l64EkplH4xxTHpmAEECBRaUCZrs4inLaU4cwEqVNRYONGf9UrbFMtPnsac20O_FO2Bkq6fYV4hefnBAJ_JT6_I3By38Mt4HvhOgokgnvwliSLTEN6PPaY2JUbRaAElTMyQ38JaV6aMk4jNFLNzU8rlE3L7UNU-yon-n9TG5gLzBRZ4SLFpXJ-vGN47ACKLk70uVAxXy8KsJJg32hXk9swp6kfw38fZgVv2TyMafbp3YSp57xPeCxdE-AxyG9JsB5IEnU3yrbs4sHbyQwW-Z4Gu0ZpxeyvV4Gge3BxAjiE3BsHw_zK8WEA-iW-3386KRuZiCrR44ulzNR_lR17hv7CfSvhIOVwJxI7AEdNAVrDexbgqH-9HWxJa46R_K1AFdTQO3MZklvfVttQF4ecaR_2m-IkHcIZhUh7AOTY25tfPXIXQ5flCa3_7vA23UwXRx0EfNpvGUP5fbcwktaWTKmW5xwm6ANRRxfTa6TciUYYDRqbmnsE79I-quaWj8zjC2cKKCPfjapqzwwn77-bIrdlTf_9j8-VrFw37k4lf1RRwR0EIqBhZ5y2Sccz2z8tvLmz2uHhaeg=w551-h979-no?authuser=0
+                "
+              class="card-img-top"
+              alt="2b"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>2B</strong> from NieR:Automata</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+    >
+      <p>© Jhan Marmel 2022</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a
+            class="link-dark"
+            href="https://twitter.com/jhanmarmelous"
+            target="_blank"
+            ><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use></svg
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a
+            class="link-dark"
+            href="https://www.instagram.com/jhanmarmel"
+            target="_blank"
+            ><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use></svg
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a
+            class="link-dark"
+            href="https://www.facebook.com/myahjmyahj"
+            target="_blank"
+            ><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

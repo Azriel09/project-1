@@ -1,0 +1,73 @@
+nav {
+  font-size: 1.5em;
+}
+
+.navbar-brand {
+  font-size: 1.1em;
+}
+
+.container-fluidg {
+  padding: 100px;
+}
+
+img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.gallery-container {
+  padding: 50px 10px 50px 10px;
+}
+
+img {
+  transition: 0.3s;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.grid-wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-wrapper > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid-wrapper {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+  gap: 50px;
+}
+
+.grid-wrapper .wide {
+  grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+  grid-row: span 2;
+}
+
+.grid-wrapper .big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #fff);
+  border-radius: 20px;
+}
