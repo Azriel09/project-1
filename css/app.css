@@ -1,3 +1,7 @@
+body {
+  font-family: "Crimson Text", serif;
+}
+
 .sticky-top {
   font-size: 1.2em;
 }
@@ -14,8 +18,8 @@ main {
   margin-bottom: 10vh;
 }
 
-.banner {
-  width: 100%;
+.py-5 {
+  max-width: 100%;
   box-sizing: border-box;
   padding: 10vw 20vw;
   background-image: url("https://lh3.googleusercontent.com/ZfKLO2okZshX4HqMGHBWhc_lMrEO-zb1XMqFX1g_O6uZ6c-pZCr1ZOGYYAR8LlsXh_HG8Cy8ueosjvdEyyFawrBD3O7SrgIonkTCqkhin95Kt2CE1P-o67RJmU5KHhCFkQS913Qz8-GfsOrDbu89Uqm6ag5A7g65TDMsDmRSIkCrsWaFYl5KLnz3K1mBkwFd3HlYg1ZbljSku4LoOLM2iPeS7dvU3UbfOIFh1OP0PtXBy7rNfOihjNcp1sQaMyYwzysQMUKY4lXFbNC6y3AS6ANgOwqHlrOfOJoCEluAAi3KzbYWQNnjq0XsW83wCPokZb2Wccln5C25-fqftM7iXolMkOpOE572zLIzE2uS2RAON4EEvqdylKbksgfr44wyAwvSQ7drrPBJ0RrNyHqK3u3gmYB0MfGi7Z4Wb_6J79x5xl_uJFOEuLCzyM0Z_JSZlVttPQ5uXTlHUATJrgDSKjH6V0iqTjwlo_KZLy2fsYLDOPHfOxpqvoCI-M79KCOUp2f8cLLAuKi2aUaQpi-bw_CI53gy8i61qPywk02iGImApOP7U46l1tN_zIiHF90ve3gEL7COLlakiNXyvW5t9m8R09GQ8ztfLOfZjcsCoF5QkhME6uzGbhSuV1tMUu3popGKV_I1z8smGJnL0LRt2mZmxNXhsc-wHn50qe31Viop5ZZBdayqK78xJSJrQVGLVWT0pcJwYRDg6dSW8DCRLoLM3g2rpdhZ-h6EIRhJpgb9jFjfb54_Vqkc5rTTc71TZZ9cKDn-p9VbqILKWMP5qeT6E1UPBfwKvpmxbtxthe2GibWg4n6LB3MXjFVeLB3bwJSN8E__yU47hi7desTWoBp3jSmkqzgKlcNcP0BolymECcHLKbpwFM1kqPYDSFmncJblq12XMOcIghZuZJ985sebjeS2UstjhYetmDKc-TklAIqcweli_fQWulmZcA5E1Q83EOAGHM13X6HzhIxz-Pyoc6GVEvr7EQswN8rQz_aO2QkYes3W2MzOlho_16AFGeA5I20V3AKxIyC5GuQ=w625-h327-no?authuser=1");
@@ -23,17 +27,26 @@ main {
   background-repeat: no-repeat;
   background-position: center 25%;
   margin-bottom: 10vh;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-.banner-content {
-  font-family: sans-serif;
+.col-lg-6 {
+  font-family: "Crimson Pro", serif;
+  font-weight: bold;
   line-height: 2;
   color: black;
+  background-color: rgba(256, 256, 256, 0.2);
   width: 25em;
   max-width: 100%;
   font-size: 1.5em;
   font-weight: 600;
+  border-radius: 10px;
+}
+
+@media (max-width: 460px) {
+  .col-lg-6 {
+    font-size: 1.2em;
+  }
 }
 
 h1 {
@@ -55,7 +68,6 @@ h1 {
 .img-container:hover {
   transform: scale(1.05);
   transition: 0.4s;
-  opacity: 0.7;
 }
 
 ::-webkit-scrollbar {

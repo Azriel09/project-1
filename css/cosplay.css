@@ -13,11 +13,8 @@
   bottom: 0;
 }
 
-img {
-  transition: 0.3s;
-}
-
-img:hover {
+.col:hover {
   transform: scale(1.03);
-  transition: 0.5s;
+  transition: 0.3s;
+  cursor: pointer;
 }
