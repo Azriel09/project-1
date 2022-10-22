@@ -66,7 +66,7 @@
     <title>Jhan's Photographs</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
         <div
           class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
@@ -112,66 +112,87 @@
           </div>
         </div>
       </section>
-      <section class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-5">
-          <div class="col">
-            <div class="card h-100">
-              <div class="img-container">
-                <a href="cosplay.html">
-                  <img
-                    src="https://lh3.googleusercontent.com/pw/AL9nZEXQwJo_2ufDEPMWMwHQn_kfvMqSNTTyx0j2bqq_89dapqSxBbqvUl8NQWyUwtECG-AmCCZVZxPOMRFr1O9wk8vrN52-VFFD5o9uJvB-vyWJ7X7Uc1ucvKBj1NxLQrtaYrNytjQKH_MpQsJTacP8Xy1g=w543-h965-no?authuser=1"
-                    class="card-img-top rounded"
-                    alt="cosplay"
-                /></a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Cosplay</h5>
-                <p class="card-text">
-                  A collection of cosplayers I've seen during the events this
-                  year.
-                </p>
-              </div>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="cosplay.html">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AL9nZEXQwJo_2ufDEPMWMwHQn_kfvMqSNTTyx0j2bqq_89dapqSxBbqvUl8NQWyUwtECG-AmCCZVZxPOMRFr1O9wk8vrN52-VFFD5o9uJvB-vyWJ7X7Uc1ucvKBj1NxLQrtaYrNytjQKH_MpQsJTacP8Xy1g=w543-h965-no?authuser=1"
+                class="d-block w-100"
+                alt="cosplay"
+            /></a>
+            <div class="carousel-caption d-md-block">
+              <h5>Cosplay</h5>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="img-container">
-                <a href="random.html">
-                  <img
-                    src="https://lh3.googleusercontent.com/pw/AL9nZEXXFS1_EhXdkxBX2v9OLStd6REIEIFI6JwOygCC63sJCLpLeva1j_nEbtAUJtJcGZeJCNkxtAgjWtdPF639h_bW9FTsubp0uy-cECBub8qatxEWtiLNdkGsZkR3hDcW3doB4t07_uJWaQ90S4hTg2-y=w543-h965-no?authuser=1"
-                    class="card-img-top rounded"
-                    alt="random"
-                /></a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Random</h5>
-                <p class="card-text">
-                  Random things that I've taken a picture of.
-                </p>
-              </div>
+          <div class="carousel-item">
+            <a href="random.html">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AL9nZEXXFS1_EhXdkxBX2v9OLStd6REIEIFI6JwOygCC63sJCLpLeva1j_nEbtAUJtJcGZeJCNkxtAgjWtdPF639h_bW9FTsubp0uy-cECBub8qatxEWtiLNdkGsZkR3hDcW3doB4t07_uJWaQ90S4hTg2-y=w543-h965-no?authuser=1"
+                class="d-block w-100"
+                alt="random"
+            /></a>
+            <div class="carousel-caption d-md-block">
+              <h5>Random</h5>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="img-container">
-                <a href="nature.html">
-                  <img
-                    src="https://lh3.googleusercontent.com/pw/AL9nZEVQOHQHQZgiLoc8-YB5N7fZ0Q4VJbeYFqTOUH9Cz2iWiyOgrn8pxcXCWUnB68E8MLZGBdyRrjdT5oc-YBGtJ5yvSEUFiL36X-nEQWr9KK-ZhuC0EPCfWWWTJ-dPUqv-dR8KN4h2aaMTiWpvxilHc3C4=w543-h965-no?authuser=1"
-                    class="card-img-top rounded"
-                    alt="nature"
-                /></a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Nature</h5>
-                <p class="card-text">
-                  If it is photography, there's gotta be at least one picture
-                  from nature.
-                </p>
-              </div>
+          <div class="carousel-item">
+            <a href="nature.html">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AL9nZEVQOHQHQZgiLoc8-YB5N7fZ0Q4VJbeYFqTOUH9Cz2iWiyOgrn8pxcXCWUnB68E8MLZGBdyRrjdT5oc-YBGtJ5yvSEUFiL36X-nEQWr9KK-ZhuC0EPCfWWWTJ-dPUqv-dR8KN4h2aaMTiWpvxilHc3C4=w543-h965-no?authuser=1"
+                class="d-block w-100"
+                alt="nature"
+            /></a>
+            <div class="carousel-caption d-md-block">
+              <h5>Nature</h5>
             </div>
           </div>
         </div>
-      </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
 
     <div

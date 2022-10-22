@@ -32,9 +32,13 @@ nav {
 .container-g {
   max-width: 85%;
   margin: 50px auto;
-  background-color: rgba(33, 37, 41, 0.3);
   padding: 30px 30px;
   border-radius: 0px 30px 0 30px;
+}
+
+.container-g img {
+  padding: 10px;
+  background-color: rgb(33, 37, 41);
 }
 
 .container-g .image-container-g {

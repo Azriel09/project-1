@@ -90,6 +90,15 @@ main {
   border-radius: 50px;
 }
 
+@media (max-width: 440px) {
+  .image {
+    padding: 25px 25px 50px 25px;
+  }
+  .about + p,
+  .first-p + p {
+    font-size: 1.2em;
+  }
+}
 ::-webkit-scrollbar {
   width: 20px;
   background-color: #212529;
