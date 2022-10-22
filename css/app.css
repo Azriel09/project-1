@@ -31,8 +31,6 @@ main {
   font-family: "Crimson Pro", serif;
   font-weight: bold;
   line-height: 2;
-  color: black;
-  background-color: rgba(256, 256, 256, 0.2);
   width: 25em;
   max-width: 100%;
   font-size: 1.5em;
@@ -40,24 +38,8 @@ main {
   border-radius: 10px;
 }
 
-.carousel {
-  margin: 0 50px;
-}
-
-.carousel img {
-  border-radius: 10px;
-}
-
-.carousel-caption h5 {
-  letter-spacing: 10px;
-  font-size: 2em;
-  color: rgba(256, 256, 256, 0.8);
-}
-
-@media (max-width: 460px) {
-  .col-lg-6 {
-    font-size: 1.2em;
-  }
+.containerg {
+  margin: 10px 50px;
 }
 
 h1 {
